@@ -21,6 +21,7 @@ elif [ "$MACHINE" = "ppc64le" ]; then
 else
     ARCH="x64"
 fi
+
 NODEJS_VERSION=v${NODEJS_VERSION}
 FILE_NAME=node-${NODEJS_VERSION}-linux-${ARCH}.tar.xz
 NODE_PATH="/usr/local/node"
